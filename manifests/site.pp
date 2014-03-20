@@ -40,9 +40,10 @@ Repository {
     '--recurse-submodules'
   ],
   require  => File["${boxen::config::bindir}/boxen-git-credential"],
-  config   => {
-    'credential.helper' => "${boxen::config::bindir}/boxen-git-credential"
-  }
+# Commented out, don't overwrite my gitconfig
+#  config   => {
+#    'credential.helper' => "${boxen::config::bindir}/boxen-git-credential"
+#  }
 }
 
 Service {
