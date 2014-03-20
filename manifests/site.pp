@@ -57,6 +57,13 @@ node default {
   include git
   include hub
   include nginx
+  include keepassx
+  include skype
+  include dropbox
+  include intellij
+  include chrome
+  include pckeyboardhack
+  include java
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
