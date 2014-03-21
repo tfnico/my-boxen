@@ -4,9 +4,19 @@ GITHUBTARBALL
     boxen (3.3.8)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chicken_of_the_vnc
+  specs:
+    chicken_of_the_vnc (0.1.3)
+
+GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.1.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-cyberduck
+  specs:
+    cyberduck (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -17,6 +27,11 @@ GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
     dropbox (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.1.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -39,6 +54,16 @@ GITHUBTARBALL
     go (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-googledrive
+  specs:
+    googledrive (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-hipchat
+  specs:
+    hipchat (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.6.0)
@@ -57,6 +82,11 @@ GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
     java (1.4.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-jumpcut
+  specs:
+    jumpcut (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-keepassx
@@ -84,6 +114,11 @@ GITHUBTARBALL
     pckeyboardhack (1.2.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-pgadmin3
+  specs:
+    pgadmin3 (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.1.0)
@@ -92,6 +127,11 @@ GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-postgresql
+  specs:
+    postgresql (3.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-property_list_key
@@ -114,9 +154,49 @@ GITHUBTARBALL
     skype (1.0.8)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sourcetree
+  specs:
+    sourcetree (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sysctl
+  specs:
+    sysctl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-tunnelblick
+  specs:
+    tunnelblick (1.0.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.0.6)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.9)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.0.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vmware_fusion
+  specs:
+    vmware_fusion (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -140,31 +220,47 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 3.3.8)
+  chicken_of_the_vnc (= 0.1.3)
   chrome (>= 0)
+  cyberduck (>= 0)
   dnsmasq (= 1.0.1)
   dropbox (>= 0)
+  firefox (>= 0)
   foreman (= 1.1.0)
   gcc (= 2.0.1)
   git (= 1.3.7)
   go (= 1.1.0)
+  googledrive (>= 0)
+  hipchat (>= 0)
   homebrew (= 1.6.0)
   hub (= 1.3.0)
   inifile (= 1.0.1)
   intellij (>= 0)
   java (>= 0)
+  jumpcut (>= 0)
   keepassx (= 1.0.0)
   module-data (= 0.0.1)
   nginx (= 1.4.3)
   nodejs (= 3.5.0)
   openssl (= 1.0.0)
   pckeyboardhack (>= 0)
+  pgadmin3 (>= 0)
   phantomjs (= 2.1.0)
   pkgconfig (= 1.0.0)
+  postgresql (>= 0)
   property_list_key (= 0.1.0)
   repository (= 2.3.0)
   ruby (= 7.1.6)
   skype (= 1.0.8)
+  sourcetree (>= 0)
+  spotify (>= 0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  sysctl (= 1.0.0)
+  tunnelblick (>= 0)
+  vagrant (>= 0)
+  virtualbox (>= 0)
+  vlc (>= 0)
+  vmware_fusion (>= 0)
   xquartz (= 1.1.1)
 

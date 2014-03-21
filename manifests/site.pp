@@ -61,10 +61,24 @@ node default {
   include keepassx
   include skype
   include dropbox
-  include intellij
   include chrome
   include pckeyboardhack
   include java
+  include firefox
+  include vagrant
+  include sourcetree
+  include tunnelblick
+  include postgresql
+  include chicken_of_the_vnc
+  include hipchat
+  include vmware_fusion
+  include vlc
+  include cyberduck
+  include pgadmin3
+  include spotify
+  include jumpcut
+  include googledrive
+  include virtualbox
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
