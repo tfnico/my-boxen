@@ -40,7 +40,6 @@ github "gcc",         "2.0.1"
 github "git",         "1.3.7"
 github "go",          "1.1.0"
 github "homebrew",    "1.6.0"
-github "hub",         "1.3.0"
 github "inifile",     "1.0.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "module-data", "0.0.1", :repo => "ripienaar/puppet-module-data"
 github "nginx",       "1.4.3"
@@ -81,5 +80,5 @@ github "googledrive"
 github "sysctl",      "1.0.0" #https://github.com/boxen/puppet-postgresql/issues/4
 github "virtualbox"
 github "clipmenu"
-
-
+github "macvim"
+github "iterm2"

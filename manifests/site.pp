@@ -39,8 +39,8 @@ Repository {
   extra    => [
     '--recurse-submodules'
   ],
-  require  => File["${boxen::config::bindir}/boxen-git-credential"],
 # Commented out, don't overwrite my gitconfig
+#  require  => File["${boxen::config::bindir}/boxen-git-credential"],
 #  config   => {
 #    'credential.helper' => "${boxen::config::bindir}/boxen-git-credential"
 #  }
@@ -55,8 +55,8 @@ Homebrew::Formula <| |> -> Package <| |>
 node default {
   # core modules, needed for most things
   include dnsmasq
+  # Use my own gitconfig
   include git
-  include hub
   include nginx
   include keepassx
   include skype
@@ -80,6 +80,8 @@ node default {
   include googledrive
   include virtualbox
   include clipmenu
+  include macvim
+  include iterm2::stable
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
