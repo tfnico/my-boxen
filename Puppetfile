@@ -80,5 +80,6 @@ github "jumpcut"
 github "googledrive"
 github "sysctl",      "1.0.0" #https://github.com/boxen/puppet-postgresql/issues/4
 github "virtualbox"
+github "clipmenu"
 
 

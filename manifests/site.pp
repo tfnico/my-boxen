@@ -79,6 +79,7 @@ node default {
   include jumpcut
   include googledrive
   include virtualbox
+  include clipmenu
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

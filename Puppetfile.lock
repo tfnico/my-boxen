@@ -14,6 +14,11 @@ GITHUBTARBALL
     chrome (1.1.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-clipmenu
+  specs:
+    clipmenu (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-cyberduck
   specs:
     cyberduck (1.0.1)
@@ -222,6 +227,7 @@ DEPENDENCIES
   boxen (= 3.3.8)
   chicken_of_the_vnc (= 0.1.3)
   chrome (>= 0)
+  clipmenu (>= 0)
   cyberduck (>= 0)
   dnsmasq (= 1.0.1)
   dropbox (>= 0)
