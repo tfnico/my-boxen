@@ -5,7 +5,7 @@ class people::tfnico {
   $home     = "/Users/${::boxen_user}"
   $my       = "${home}/prefs"
   $dotfiles = "${my}/prefs"
-  
+
   file { $my:
     ensure  => directory
   }
@@ -24,17 +24,16 @@ class { 'intellij':
 }
 
 class foo {
-  package {'myrepos':
-    ensure => installed,
-  }
-  package {'nodejs':
-    ensure => installed,
-  }
-  package {'vcsh':
-    ensure => installed,
-  }
-  package {'tmux':
-    ensure => installed,
-  }
+	$packages = [
+                'myrepos',
+                'nodejs',
+                'vcsh',
+                'tmux',
+                'reattach-to-user-namespace',
+                'wget',
+                'tig'
+              ]
+	package { $packages:
+		ensure => "installed"
+	}
 }
-
