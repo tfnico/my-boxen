@@ -31,7 +31,8 @@ class foo {
                 'tmux',
                 'reattach-to-user-namespace',
                 'wget',
-                'tig'
+                'tig',
+                'gitslave',
               ]
 	package { $packages:
 		ensure => "installed"
