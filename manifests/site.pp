@@ -68,7 +68,6 @@ node default {
   include vagrant
   include sourcetree
   include tunnelblick
-  include postgresql
   include chicken_of_the_vnc
   include hipchat
   include vmware_fusion
